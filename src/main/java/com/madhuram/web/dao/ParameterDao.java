@@ -23,7 +23,7 @@ public class ParameterDao implements Dao<Parameters>{
 	}
 
 	public Parameters getValue(String parameter) {
-		String sql = "select * from Parameter where Parameter = ?";
+		String sql = "select * from Parameters where Parameter = ?";
 		try {
 			return (Parameters) jdbcTemplate.queryForObject(sql,
 					new Object[] {parameter},
