@@ -18,6 +18,11 @@ public class LoginController {
 	@Autowired
 	private SecurityService securityService;
 	
+	@GetMapping("/chk")
+	public String login() {
+		return "check";
+	}
+	
 	@GetMapping("/login")
 	public String login() {
 		if(securityService.findLoggedInUsername() != null) {
