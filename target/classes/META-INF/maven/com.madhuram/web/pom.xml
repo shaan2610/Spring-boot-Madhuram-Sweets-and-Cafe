@@ -18,12 +18,12 @@
 		<java.version>11</java.version>
 		<version.commons-io>2.4</version.commons-io>
 	</properties>
-	<repositories>
+	<!--  <repositories>
 	    <repository>
 	        <id>my-repo1</id>
 	        <url> http://artifactorypg.paytm.in/artifactory/libs-release </url>
 	    </repository>
-	</repositories>
+	</repositories> -->
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
